@@ -1,0 +1,33 @@
+# Data (too large for git — use DVC or download instructions)
+data/raw/
+data/processed/
+*.tif
+*.SAFE/
+*.zip
+
+# Outputs (regenerate from notebooks)
+outputs/*.png
+outputs/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Conda / venv
+env/
+venv/
+.conda/
+
+# OS
+.DS_Store
+Thumbs.db
