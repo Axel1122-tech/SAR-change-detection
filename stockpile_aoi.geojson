@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chuquicamata Concentrate Stockpile AOI",
+        "site": "Chuquicamata Copper Mine, Chile",
+        "operator": "Codelco",
+        "aoi_type": "concentrate_stockpile",
+        "defined_from": "Sentinel-2 SWIR composite + Google Earth validation",
+        "crs": "EPSG:4326",
+        "notes": "Conservative polygon excluding adjacent processing plant and haul roads. Validated against optical imagery independently of SAR signal."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-68.906, -22.298],
+          [-68.898, -22.298],
+          [-68.898, -22.305],
+          [-68.906, -22.305],
+          [-68.906, -22.298]
+        ]]
+      }
+    }
+  ]
+}
